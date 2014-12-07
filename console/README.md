@@ -1,18 +1,18 @@
-xxhash的使用说明
-================
+xxhash
+======
 
-在改插件中的`hash`命令是由`./plugin_xxhash/xxhash/`中代码编译而来。
+the `hash` is complie from `./plugin_xxhash/xxhash/`
 
-具体可以见[main.cpp](./plugin_xxhash/xxhash/main.cpp)代码
+the [main.cpp](./plugin_xxhash/xxhash/main.cpp) code
 
-## 编译
+## complie
 
 ```bash
 make && make install
 ```
 
-### 使用
+## use
 
 ```bash
-./hash -f [哈希文件路径] -s [种子:默认为0x12345678] -t [文件生成路径:默认为当前目录]
+./hash -f [file path] -s [seed:defalut 0x12345678] -t [desert path:default current path]
 ```
